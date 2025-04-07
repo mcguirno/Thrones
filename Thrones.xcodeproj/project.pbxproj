@@ -6,17 +6,24 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		4F9FA3FE2DA47B2100A4A9AD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F9FA3F72DA47B2100A4A9AD /* Preview Assets.xcassets */; };
+		4F9FA3FF2DA47B2100A4A9AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F9FA3F92DA47B2100A4A9AD /* Assets.xcassets */; };
+		4F9FA4002DA47B2100A4A9AD /* House.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9FA3FA2DA47B2100A4A9AD /* House.swift */; };
+		4F9FA4012DA47B2100A4A9AD /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9FA3FB2DA47B2100A4A9AD /* ListView.swift */; };
+		4F9FA4022DA47B2100A4A9AD /* ThronesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9FA3FC2DA47B2100A4A9AD /* ThronesApp.swift */; };
+		4F9FA4062DA47D8A00A4A9AD /* HousesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9FA4052DA47D8A00A4A9AD /* HousesViewModel.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		4F9FA3CF2DA4754400A4A9AD /* Thrones.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Thrones.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F9FA3F72DA47B2100A4A9AD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4F9FA3F92DA47B2100A4A9AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F9FA3FA2DA47B2100A4A9AD /* House.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = House.swift; sourceTree = "<group>"; };
+		4F9FA3FB2DA47B2100A4A9AD /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		4F9FA3FC2DA47B2100A4A9AD /* ThronesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThronesApp.swift; sourceTree = "<group>"; };
+		4F9FA4052DA47D8A00A4A9AD /* HousesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HousesViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		4F9FA3D12DA4754400A4A9AD /* Thrones */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Thrones;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		4F9FA3CC2DA4754400A4A9AD /* Frameworks */ = {
@@ -32,7 +39,7 @@
 		4F9FA3C62DA4754400A4A9AD = {
 			isa = PBXGroup;
 			children = (
-				4F9FA3D12DA4754400A4A9AD /* Thrones */,
+				4F9FA3FD2DA47B2100A4A9AD /* Thrones */,
 				4F9FA3D02DA4754400A4A9AD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +50,27 @@
 				4F9FA3CF2DA4754400A4A9AD /* Thrones.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		4F9FA3F82DA47B2100A4A9AD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4F9FA3F72DA47B2100A4A9AD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4F9FA3FD2DA47B2100A4A9AD /* Thrones */ = {
+			isa = PBXGroup;
+			children = (
+				4F9FA3F82DA47B2100A4A9AD /* Preview Content */,
+				4F9FA3F92DA47B2100A4A9AD /* Assets.xcassets */,
+				4F9FA3FB2DA47B2100A4A9AD /* ListView.swift */,
+				4F9FA3FC2DA47B2100A4A9AD /* ThronesApp.swift */,
+				4F9FA3FA2DA47B2100A4A9AD /* House.swift */,
+				4F9FA4052DA47D8A00A4A9AD /* HousesViewModel.swift */,
+			);
+			path = Thrones;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +87,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				4F9FA3D12DA4754400A4A9AD /* Thrones */,
 			);
 			name = Thrones;
 			packageProductDependencies = (
@@ -109,6 +134,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F9FA3FE2DA47B2100A4A9AD /* Preview Assets.xcassets in Resources */,
+				4F9FA3FF2DA47B2100A4A9AD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F9FA4002DA47B2100A4A9AD /* House.swift in Sources */,
+				4F9FA4012DA47B2100A4A9AD /* ListView.swift in Sources */,
+				4F9FA4022DA47B2100A4A9AD /* ThronesApp.swift in Sources */,
+				4F9FA4062DA47D8A00A4A9AD /* HousesViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
